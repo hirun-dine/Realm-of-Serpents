@@ -21,7 +21,7 @@ body {
   /* ============================================================= */
   /* Secondary Color
   ================================================================ */
-  --cd-secondary-color: #939799;
+  --cd-secondary-color: #8490b4;
   --cd-secondary-text-color: #EEEAE2;
 
   /* ============================================================= */
@@ -32,7 +32,7 @@ body {
   --cd-faded-background-color: #f8f8f8;
 
   /* Background Extras */
-  --cd-body-background-image: url();
+  --cd-body-background-image: url('https://square.online/editor/uploads/1/2/8/7/12877546/custom_themes/707691060291093595/files/Images/the_cavern_of_life_1920x1080_by_memuii_di7h7sw.png');
 
   /* ============================================================= */
   /* Text
