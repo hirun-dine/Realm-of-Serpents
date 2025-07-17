@@ -56,7 +56,7 @@ body {
   --cd-navbar-brand-color-hover: #E3DCCF;
   --cd-navbar-text-color: var(--cd-content-background-color);
   --cd-navbar-link-color: var(--cd-navbar-text-color);
-  --cd-navbar-link-color-hover: var(--cd-primary-color);
+  --cd-navbar-link-color-hover: var(--cd-navbar-brand-color-hover);
   --cd-navbar-font-family: var(--cd-header-font-family);
 
   /* ============================================================= */
