@@ -46,7 +46,7 @@ body {
   --cd-border-color: rgba(0, 0, 0, 0.125);
   --cd-border-width: 1px;
   --cd-border-style: solid;
-  --cd-border-radius: 1rem;
+  --cd-border-radius: 4px;
 
   /* ============================================================= */
   /* Navbar
@@ -62,8 +62,8 @@ body {
   /* ============================================================= */
   /* Main Fonts
   ================================================================ */
-  --cd-body-font-family: 'Montserrat', sans-serif;
-  --cd-header-font-family: 'Comfortaa', sans-serif;
+  --cd-body-font-family: 'Lora', serif;
+  --cd-header-font-family: 'Lora', serif;
   
   /* ============================================================= */
   /* Rarities
