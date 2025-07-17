@@ -490,8 +490,8 @@ a:active {
 
 .btn.btn-primary,
 .badge.badge-primary {
-  color: var(--cd-button-text-color) !important;
-  background-color: var(--cd-button-background-color) !important;
+  color: var(--cd-button-border-color) !important;
+  background-color: transparent !important;
   border-color: var(--cd-button-border-color) !important;
 }
 
@@ -502,8 +502,8 @@ a.badge.badge-primary:hover,
 a.badge.badge-primary:focus,
 a.badge.badge-primary:active {
   color: var(--cd-button-text-color-hover) !important;
-  border-color: var(--cd-button-border-color-hover) !important;
-  background-color: var(--cd-button-background-color-hover) !important;
+  border-color: var(--cd-button-border-color) !important;
+  background-color: var(--cd-button-border-color) !important;
   box-shadow: none !important;
 }
 
