@@ -48,7 +48,6 @@ charadex.sheet = {
     mode: ['All', 'Story', 'Collectors', 'NPC'],
     itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
     traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
-    species: ['All', 'Human', 'Dragon', 'Familiar']
 
   }
 
