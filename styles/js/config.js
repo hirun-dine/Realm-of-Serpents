@@ -16,7 +16,7 @@ let charadex = {};
 /* ==================================================================== */
 charadex.site = {
   title: "Realm of Serpents",
-  url: "https://hirun-dine.github.io/Realm-of-Serpents/",
+  url: "https://hirun-dine.github.io/Realm-of-Serpents",
   description: `A directory for RoS characters and NPCs.`
 }
 
