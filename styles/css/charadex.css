@@ -569,6 +569,11 @@ a.badge.badge-primary:active {
   background-color: var(--cd-content-background-color) !important;
 }
 
+.bg-dark {
+  background-color: var(--cd-primary-color) !important;
+  color: var(--cd-primary-text-color) !important;
+}
+
 .text-muted {
   color: var(--cd-faded-text-color) !important;
 }
