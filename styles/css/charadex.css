@@ -15,20 +15,20 @@ body {
   /* ============================================================= */
   /* Primary Color
   ================================================================ */
-  --cd-primary-color: #8FB7D4;
-  --cd-primary-text-color: #fff;
+  --cd-primary-color: #5D609C;
+  --cd-primary-text-color: #EEEAE2;
 
   /* ============================================================= */
   /* Secondary Color
   ================================================================ */
   --cd-secondary-color: #939799;
-  --cd-secondary-text-color: #fff;
+  --cd-secondary-text-color: #EEEAE2;
 
   /* ============================================================= */
   /* Backgrounds
   ================================================================ */
   --cd-body-background-color: #f8f8f8;
-  --cd-content-background-color: #ffffff;
+  --cd-content-background-color: #EEEAE2;
   --cd-faded-background-color: #f8f8f8;
 
   /* Background Extras */
