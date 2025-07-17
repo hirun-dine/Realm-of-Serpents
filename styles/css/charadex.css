@@ -574,6 +574,10 @@ a.badge.badge-primary:active {
   color: var(--cd-primary-text-color) !important;
 }
 
+.text-secondary {
+  color: var(--cd-secondary-color) !important;
+}
+
 .text-muted {
   color: var(--cd-faded-text-color) !important;
 }
