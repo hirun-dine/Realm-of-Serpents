@@ -575,7 +575,7 @@ a.badge.badge-primary:active {
 }
 
 .text-secondary {
-  color: var(--cd-secondary-color) !important;
+  color: #c1c7d9 !important;
 }
 
 .text-muted {
