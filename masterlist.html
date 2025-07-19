@@ -228,10 +228,6 @@
             aria-controls="profile" aria-selected="true" title="Character Profile"><i class="fa-regular fa-address-card fa-xl"></i></a>
           </li>
           <li class="col p-1 nav-item" role="presentation">
-            <a class="w-100 btn btn-primary tooltipster" id="magic-tab" data-toggle="tab" href="#magic" aria-controls="magic" 
-            aria-selected="false" title="Magic"><i class="fa-solid fa-hand-sparkles fa-xl"></i></a>
-          </li>
-          <li class="col p-1 nav-item" role="presentation">
             <a class="w-100 btn btn-primary tooltipster" id="stats-tab" data-toggle="tab" href="#stats" aria-controls="stats" 
             aria-selected="false" title="Story Mode Stats"><i class="fa-solid fa-dice-d20 fa-xl"></i></a>
           </li>
@@ -262,7 +258,7 @@
 
                   <!-- Item -->
                   <div class="d-flex no-gutters mb-1">
-                    <b class="text-secondary col-md-5 col-6">Role</b>
+                    <b class="text-secondary col-md-5 col-6">Occupation</b>
                     <span class="job"></span>
                   </div>
 
@@ -299,13 +295,13 @@
                   <!-- Item -->
                   <div class="d-flex no-gutters mb-2">
                     <b class="text-muted col-md-5 col-6">Age</b>
-                    <span><span class="age">???</span> years old</span>
+                    <span class="age"></span>
                   </div>
     
                   <!-- Item -->
                   <div class="d-flex no-gutters mb-2">
                     <b class="text-muted col-md-5 col-6">D.o.B</b>
-                    <span class="birthday">Unknown day</span>,&nbsp;<span class="status">???</span>&nbsp;<span class="era"></span>
+                    <span><span class="birthday"></span> <span class="status"></span>&nbsp;<span class="era"></span></span>
                   </div>
 
                   <hr>
@@ -385,7 +381,11 @@
           <!-- Stats Info
           <!-- ----------------------------------------------------------- -->
           <div class="tab-pane fade" id="stats" role="tabpanel" aria-labelledby="stats-tab" tabindex="0">
-            <h4 class="text-primary">Stats &amp; Skills</h4>
+            <h4 class="text-primary">Story Mode Stats</h4>
+            <div class="card bg-transparent rounded-0 border-1 p-4 mb-2" style="border: 1px solid #BEB3A0;">
+              <p>Ignore this tab if your character is not participating in <b>Story Mode</b>.</p>
+            </div>
+            
             <div class="row no-gutters m-n2">
 
               <div class="col-md-6 p-2">
@@ -470,99 +470,8 @@
           </div>
 
 
-          <!-- Magic Info
-          <!-- ----------------------------------------------------------- -->
-          <div class="tab-pane fade" id="magic" role="tabpanel" aria-labelledby="magic-tab" tabindex="0">
-            <h4 class="text-primary">Magic</h4>
-            <div class="row no-gutters m-n2">
-
-              <div class="col-md-6 p-2">
-                <div class="card bg-faded p-4 h-100">
-
-                  <!-- Item -->
-                  <div class="d-flex no-gutters mb-2">
-                    <b class="text-muted">TBA</b>
-                    TBA
-                  </div>
-    
-                  <!-- Item -->
-                  <div class="d-flex no-gutters mb-2">
-                    <b class="text-muted">TBA</b>
-                    TBA
-                  </div>
-    
-                  <!-- Item -->
-                  <div class="d-flex no-gutters mb-2">
-                    <b class="text-muted">TBA</b>
-                    TBA
-                  </div>
-                  
-                  <hr>
-
-                  <!-- Item -->
-                  <div>
-                    <b class="text-muted">TBA</b>
-                    TBA
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="col-md-6 p-2">
-                <div class="card bg-faded p-4 h-100">
-
-                  <!-- Item -->
-                  <div class="d-flex no-gutters mb-2">
-                    <b class="text-muted">TBA</b>
-                    TBA
-                  </div>
-    
-                  <!-- Item -->
-                  <div class="d-flex no-gutters mb-2">
-                    <b class="text-muted">TBA</b>
-                    TBA
-                  </div>
-    
-                  <!-- Item -->
-                  <div class="d-flex no-gutters mb-2">
-                    <b class="text-muted">TBA</b>
-                    TBA
-                  </div>
-
-                  <hr>
-    
-                  <!-- Item -->
-                  <div class="d-flex no-gutters mb-2">
-                    <b class="text-muted">TBA</b>
-                    TBA
-                  </div>
-    
-                  <!-- Item -->
-                  <div class="d-flex no-gutters mb-2">
-                    <b class="text-muted">TBA</b>
-                    TBA
-                  </div>
-
-                  <hr>
-                  
-                  <!-- Item -->
-                  <div>
-                    <b class="text-muted">TBA</b>
-                    TBA
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-
-
-
           
-          
-          <!-- Logs
+          <!-- Character Badges
           <!-- ----------------------------------------------------------- -->
           <div class="tab-pane fade" id="logs" role="tabpanel" aria-labelledby="logs-tab" tabindex="0">
             <h4 class="text-primary">Badges</h4>
