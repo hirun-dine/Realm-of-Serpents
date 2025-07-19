@@ -597,6 +597,20 @@ a.badge.badge-primary:active {
 h1, h2, h3,
 h4, h5, h6 {
   font-family: var(--cd-navbar-font-family) !important;
+  color: #5D609C;
+}
+
+h1, h2, h3,
+h4 {
+  color: #5D609C;
+}
+
+h5, h6 {
+  color: #736859;
+}
+
+h4, h5, h6 {
+  font-variant: small-caps;
 }
 
 hr {
