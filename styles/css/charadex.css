@@ -46,7 +46,7 @@ body {
   --cd-border-color: #DCD5C7;
   --cd-border-width: 1px;
   --cd-border-style: solid;
-  --cd-border-radius: 4px;
+  --cd-border-radius: 0px;
 
   /* ============================================================= */
   /* Navbar
@@ -125,7 +125,7 @@ body {
   /* Link
   ================================================================ */
 
-  --cd-link-text-color: #4c8ebd;
+  --cd-link-text-color: #5D609C;
   --cd-link-text-color-hover: var(--cd-secondary-color);
 
 
