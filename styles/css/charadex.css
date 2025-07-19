@@ -451,11 +451,11 @@ a:active {
 /* ============================================================= */
 
 .card {
-  background-color: var(--cd-card-background-color) !important;
-  border-width: var(--cd-card-border-width) !important;
-  border-style: var(--cd-card-border-style) !important;
-  border-color: var(--cd-card-border-color) !important;
-  border-radius: var(--cd-border-radius) !important;
+  background-color: var(--cd-card-background-color);
+  border-width: var(--cd-card-border-width);
+  border-style: var(--cd-card-border-style);
+  border-color: var(--cd-card-border-color);
+  border-radius: var(--cd-border-radius);
 }
 
 .card-header {
@@ -567,6 +567,10 @@ a.badge.badge-primary:active {
 
 .text-primary {
   color: var(--cd-primary-color) !important;
+}
+
+.bg-primary {
+  background: #9CA5BE !important;
 }
 
 .bg-faded {
