@@ -1,3 +1,29 @@
+/* =========================
+CUSTOM FONTS
+Setup for custom fonts imported for the site.
+========================= */
+
+@font-face {
+    font-family: 'Deco Mix'; /*a name to be used later*/
+    src: url('assets/Deco Mix.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Medeival Dingbats'; /*a name to be used later*/
+    src: url('assets/MedeivalDingbats.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Pointers'; /*a name to be used later*/
+    src: url('assets/Pointers.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Rough Flowers'; /*a name to be used later*/
+    src: url('assets/Rough Flowers.ttf'); /*URL to font*/
+}
+
+
 body {
 
   /* ============================================================= */
