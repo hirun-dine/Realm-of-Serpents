@@ -42,7 +42,7 @@ charadex.sheet = {
 
   options: {
 
-    designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
+    designTypes: ['All', 'Dragon', 'Familiar', 'Human', 'Other'],
     statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
     species: ['All', 'Story', 'Collectors', 'NPC'],
@@ -343,7 +343,7 @@ charadex.page.masterlist = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'ID', 'Design', 'Owner', 'Designer', 'Artist', 'Traits']
+    parameters: ['All', 'ID', 'Design', 'Owner', 'Designer', 'Artist', 'Traits', 'Full Name', 'Ethnicity or Type', 'Location']
   },
 
   prevNext: {
