@@ -9,7 +9,7 @@ Setup for custom fonts imported for the site.
 }
 
 @font-face {
-    font-family: 'Medeival Dingbats'; /*a name to be used later*/
+    font-family: 'Medieval Dingbats'; /*a name to be used later*/
     src: url('assets/MedievalDingbats.ttf'); /*URL to font*/
 }
 
