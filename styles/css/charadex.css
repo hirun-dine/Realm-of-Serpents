@@ -4,8 +4,8 @@ Setup for custom fonts imported for the site.
 ========================= */
 
 @font-face {
-    font-family: 'Medieval Dingbats'; 
-    src: url('assets/MedievalDingbats.ttf'); 
+    font-family: 'MedievalDingbats';
+    src: url('https://github.com/hirun-dine/Realm-of-Serpents/blob/main/assets/MedievalDingbats.ttf');
     font-style: normal;
     font-weight: normal;
 }
