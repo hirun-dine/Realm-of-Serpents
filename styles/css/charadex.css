@@ -5,7 +5,7 @@ Setup for custom fonts imported for the site.
 
 @font-face {
     font-family: 'MedievalDingbats';
-    src: url('assets/MedievalDingbats.ttf') format('truetype');
+    src: url('css/fonts/MedievalDingbats.ttf') format('truetype');
 }
 
 @font-face {
