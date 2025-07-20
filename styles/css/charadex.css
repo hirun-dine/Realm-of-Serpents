@@ -4,8 +4,13 @@ Setup for custom fonts imported for the site.
 ========================= */
 
 @font-face {
-    font-family: "Medieval Dingbats";
-    src: url("styles/css/fonts/MedievalDingbats.ttf") format("truetype") !important;
+    font-family: 'Medieval Dingbats';
+    src: url('styles/css/fonts/MedievalDingbats.ttf') format('truetype'),
+         url('styles/css/fonts/medievaldingbats-webfont.woff2') format('woff2'),
+         url('styles/css/fonts/medievaldingbats-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 .m-dingbats {
