@@ -5,12 +5,12 @@ Setup for custom fonts imported for the site.
 
 @font-face {
     font-family: 'Medieval Dingbats'; /*a name to be used later*/
-    src: url('assets/MedievalDingbats.ttf'); /*URL to font*/
+    src: url('/assets/MedievalDingbats.ttf'); /*URL to font*/
 }
 
 @font-face {
     font-family: 'Pointers'; /*a name to be used later*/
-    src: url('assets/Pointers.ttf'); /*URL to font*/
+    src: url('/assets/Pointers.ttf'); /*URL to font*/
 }
 
 
