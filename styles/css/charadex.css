@@ -6,6 +6,8 @@ Setup for custom fonts imported for the site.
 @font-face {
     font-family: 'Medieval Dingbats'; /*a name to be used later*/
     src: url('assets/MedievalDingbats.ttf') format('truetype'); /*URL to font*/
+    font-style: normal;
+    font-weight: normal
 }
 
 @font-face {
@@ -23,6 +25,9 @@ Setup for custom fonts imported for the site.
     src: url('/assets/RoughFlowers.ttf'); /*URL to font*/
 }
 
+.m-dingbats {
+    font-family: 'Medieval Dingbats';
+}
 
 body {
 
