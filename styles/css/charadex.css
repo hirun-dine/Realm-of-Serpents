@@ -13,6 +13,16 @@ Setup for custom fonts imported for the site.
     src: url('/assets/Pointers.ttf'); /*URL to font*/
 }
 
+@font-face {
+    font-family: 'Deco Mix'; /*a name to be used later*/
+    src: url('/assets/DecoMix.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Rough Flowers'; /*a name to be used later*/
+    src: url('/assets/RoughFlowers.ttf'); /*URL to font*/
+}
+
 
 body {
 
