@@ -4,27 +4,12 @@ Setup for custom fonts imported for the site.
 ========================= */
 
 @font-face {
-    font-family: 'MedievalDingbats';
+    font-family: 'Medieval Dingbats';
     src: url('styles/css/fonts/MedievalDingbats.ttf') format('truetype');
 }
 
-@font-face {
-    font-family: 'Pointers'; /*a name to be used later*/
-    src: url('assets/Pointers.ttf') format('truetype'); /*URL to font*/
-}
-
-@font-face {
-    font-family: 'Deco Mix'; /*a name to be used later*/
-    src: url('assets/DecoMix.otf') format('opentype'); /*URL to font*/
-}
-
-@font-face {
-    font-family: 'Rough Flowers'; /*a name to be used later*/
-    src: url('assets/RoughFlowers.ttf') format('truetype'); /*URL to font*/
-}
-
 .m-dingbats {
-    font-family: 'MedievalDingbats';
+    font-family: 'Medieval Dingbats';
 }
 
 body {
