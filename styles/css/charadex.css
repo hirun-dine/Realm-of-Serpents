@@ -5,24 +5,24 @@ Setup for custom fonts imported for the site.
 
 @font-face {
     font-family: 'Medieval Dingbats'; 
-    src: url('https://github.com/hirun-dine/Realm-of-Serpents/blob/main/assets/MedievalDingbats.ttf') format('truetype'); 
+    src: url('assets/MedievalDingbats.ttf') format('truetype'); 
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Pointers'; /*a name to be used later*/
-    src: url('/assets/Pointers.ttf'); /*URL to font*/
+    src: url('assets/Pointers.ttf') format('truetype'); /*URL to font*/
 }
 
 @font-face {
     font-family: 'Deco Mix'; /*a name to be used later*/
-    src: url('/assets/DecoMix.otf'); /*URL to font*/
+    src: url('assets/DecoMix.otf') format('opentype'); /*URL to font*/
 }
 
 @font-face {
     font-family: 'Rough Flowers'; /*a name to be used later*/
-    src: url('/assets/RoughFlowers.ttf'); /*URL to font*/
+    src: url('assets/RoughFlowers.ttf') format('truetype'); /*URL to font*/
 }
 
 .m-dingbats {
