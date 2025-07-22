@@ -755,8 +755,8 @@ p:last-child {
   max-height: 175px !important;
 }
 
-.cd-profile-image-container > img{
-  max-height: 400px;
+.cd-profile-image-container > img {
+  max-height: 700px;
 }
 
 /* Traits */
