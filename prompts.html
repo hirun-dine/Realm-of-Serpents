@@ -209,27 +209,77 @@
       <div class="card">
 
         <!-- Header -->
-        <h3 class="card-header text-center px-md-5 px-4 py-4">
-          <a class="profilelink profileid" href=""></a>
-        </h3>
-
-        <!-- Banner -->
-        <div class="cd-prompt-background"></div>
-
-        <!-- Body -->
-        <div class="card-body p-md-5 p-4 d-flex flex-column flex-fill">
-          <div class="description mb-auto"></div>
-          <hr class="my-4 mx-0">
-          <div class="row no-gutters text-muted m-n1 px-3 small">
-            <div class="col p-1"><b>Start Date:</b> <span class="startdate"></span></div>
-            <div class="col p-1"><b>End Date:</b> <span class="enddate"></span></div>
+        <div class="card-header px-md-5 px-4 py-4">
+          <div class="row no-gutters align-items-end m-n1">
+            <div class="col"><h3 class="mb-0 pr-2"><a class="profilelink profileid"></a></h3></div>
+            <div class="col-auto text-right raritybadge"></div>
           </div>
         </div>
-        
-        <!-- Footer -->
-        <div class="card-footer text-right">
-          <a class="link" href="">Check It Out <i class="fas fa-circle-chevron-right fa-fw ml-2"></i></a>
+
+        <!-- Main Info
+        <!-- ----------------------------------------------------------- -->
+        <div class="p-md-5 p-4">
+          <div class="row no-gutters m-n2">
+
+            <!-- Image -->
+            <div class="col-md-4 d-flex justify-content-center align-items-start text-center p-2">
+              <img class="image img-fluid" src="">
+            </div>
+
+            <div class="col-md-8 p-2">
+              <div class="card bg-faded p-4 h-100">
+
+                <!-- Item -->
+                <div class="d-flex no-gutters mb-2">
+                  <b class="text-muted col-md-5 col-6">Item</b>
+                  <span class="item"></span>
+                </div>
+  
+                <!-- Item -->
+                <div class="d-flex no-gutters mb-2">
+                  <b class="text-muted col-md-5 col-6">Type</b>
+                  <span class="type"></span>
+                </div>
+  
+                <!-- Item -->
+                <div class="d-flex no-gutters mb-2">
+                  <b class="text-muted col-md-5 col-6">User</b>
+                  <span class="user"></span>
+                </div>
+  
+                <!-- Item -->
+                <div class="d-flex no-gutters">
+                  <b class="text-muted col-md-5 col-6">Owner</b>
+                  <span><a class="owner ownerlink"></a></span>
+                </div>
+
+                <hr>
+                
+                <!-- Item -->
+                <div>
+                  <b class="text-muted">Description</b>
+                  <div class="px-4 cd-text-pre description"></div>
+                </div>
+
+                <!-- Item -->
+                <div>
+                  <b class="text-muted">Mechanics</b>
+                  <div class="px-4 cd-text-pre mechanics"></div>
+                </div>
+
+                <!-- Item -->
+                <div>
+                  <b class="text-muted">Other</b>
+                  <div class="px-4 cd-text-pre other"></div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
         </div>
+
 
       </div>
     </div>
