@@ -112,14 +112,14 @@ charadex.page.items = {
 };
 
 
-/* Traits
+/* Crafting Codex
 /* --------------------------------------------------------------- */
-charadex.page.traits = {
+charadex.page.craftables = {
 
-  sheetPage: charadex.sheet.pages.traits,
-  sitePage: 'traits',
+  sheetPage: charadex.sheet.pages.craftables,
+  sitePage: 'craftables',
   dexSelector: 'charadex',
-  profileProperty: 'trait',
+  profileProperty: 'craftable',
 
   sort: {
     toggle: true,
@@ -151,7 +151,7 @@ charadex.page.traits = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Trait', 'Rarity']
+    parameters: ['All', 'Craftable']
   },
 
   prevNext: {
