@@ -102,7 +102,7 @@ charadex.page.items = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Item', 'Rarity']
+    parameters: ['All', 'Item', 'User', 'Owner', 'Enchantment']
   },
 
   prevNext: {
