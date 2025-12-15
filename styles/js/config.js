@@ -47,10 +47,10 @@ charadex.sheet = {
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
     species: ['All', 'Story', 'Collectors', 'NPC'],
     itemTypes: ['All', 'Weapon', 'Shield', 'Armour', 'Clothing', 'Consumable', 'Accessory', 'Misc'],
-    familyFinder: ['Looking.', 'Not looking.', 'Not applicable.'],
-    romanceFinder: ['Looking.', 'Not looking.', 'Taken.'],
-    friendFinder: ['Looking.', 'Not looking.'],
-    rivalFinder: ['Looking.', 'Not looking.'],
+    familyFinder: ['All', 'Searching.', 'Not looking.', 'Not applicable.'],
+    romanceFinder: ['All', 'Searching.', 'Not looking.', 'Taken.'],
+    friendFinder: ['All', 'Searching.', 'Not looking.'],
+    rivalFinder: ['All', 'Searching.', 'Not looking.'],
     traitTypes: ['All', 'Equipment', 'Potions', 'Enchantments']
 
   }
