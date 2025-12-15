@@ -135,8 +135,7 @@ charadex.page.traits = {
     toggle: true,
     parameters: {
       'Type': charadex.sheet.options.traitTypes,
-      'User': charadex.sheet.options.user,
-      'Owner': charadex.sheet.options.owner,
+      'Rarity': charadex.sheet.options.rarity,
     }
   },
 
@@ -149,7 +148,7 @@ charadex.page.traits = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Type', 'User', 'Owner']
+    parameters: ['All', 'Trait', 'Rarity']
   },
 
   prevNext: {
