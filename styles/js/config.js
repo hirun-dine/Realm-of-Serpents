@@ -332,10 +332,6 @@ charadex.page.masterlist = {
     toggle: true,
     parameters: {
       'Design Type': charadex.sheet.options.designTypes,
-      'Romance Finder': charadex.sheet.options.romanceFinder,
-      'Family Finder': charadex.sheet.options.familyFinder,
-      'Friend Finder': charadex.sheet.options.friendFinder,
-      'Rivals Finder': charadex.sheet.options.rivalsFinder,
     }
   },
 
