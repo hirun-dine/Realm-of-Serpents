@@ -35,7 +35,7 @@ charadex.sheet = {
     inventoryLog:  "inventory log",
     items:         "items",
     craftables:        "craftables",
-    prompts:       "prompts",
+    pets:       "pets",
     faq:           "faq",
     staff:         "mods",
   },
@@ -161,12 +161,12 @@ charadex.page.craftables = {
 };
 
 
-/* Prompts
+/* Pets
 /* --------------------------------------------------------------- */
-charadex.page.prompts = {
+charadex.page.pets = {
 
-  sheetPage: charadex.sheet.pages.prompts,
-  sitePage: 'prompts',
+  sheetPage: charadex.sheet.pages.pets,
+  sitePage: 'pets',
   dexSelector: 'charadex',
   profileProperty: 'title',
 
@@ -508,9 +508,9 @@ charadex.page.inventory = {
 /* --------------------------------------------------------------- */
 charadex.page.index = {
 
-  prompts: {
-    ... charadex.page.prompts,
-    dexSelector: 'prompt',
+  pets: {
+    ... charadex.page.pets,
+    dexSelector: 'pets',
     amount: 3,
   },
 
