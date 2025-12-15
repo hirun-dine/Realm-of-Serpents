@@ -138,7 +138,6 @@ charadex.page.craftables = {
     toggle: true,
     parameters: {
       'Type': charadex.sheet.options.traitTypes,
-      'Rarity': charadex.sheet.options.rarity,
     }
   },
 
@@ -151,7 +150,7 @@ charadex.page.craftables = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Craftable']
+    parameters: ['All', 'Craftable', 'Recipe']
   },
 
   prevNext: {
