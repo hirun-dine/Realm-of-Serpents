@@ -30,7 +30,7 @@ charadex.sheet = {
 
   pages: {
     masterlist:    "masterlist",
-    masterlistLog: "masterlist log",
+    badges: "badges",
     inventory:     "inventory",
     inventoryLog:  "inventory log",
     items:         "items",
@@ -352,9 +352,9 @@ charadex.page.masterlist = {
 
   relatedData: {
 
-    [charadex.sheet.pages.masterlistLog]: {
+    [charadex.sheet.pages.badges]: {
 
-      sheetPage: charadex.sheet.pages.masterlistLog,
+      sheetPage: charadex.sheet.pages.badges,
       primaryProperty: 'id',
       relatedProperty: 'id',
       dexSelector: 'log',
