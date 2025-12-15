@@ -34,7 +34,7 @@ charadex.sheet = {
     inventory:     "inventory",
     inventoryLog:  "inventory log",
     items:         "items",
-    traits:        "traits",
+    craftables:        "craftables",
     prompts:       "prompts",
     faq:           "faq",
     staff:         "mods",
