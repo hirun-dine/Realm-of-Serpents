@@ -50,7 +50,7 @@ charadex.sheet = {
     familyFinder: ['All', 'Searching.', 'Not looking.', 'Not applicable.'],
     romanceFinder: ['All', 'Searching.', 'Not looking.', 'Taken.'],
     friendFinder: ['All', 'Searching.', 'Not looking.'],
-    rivalFinder: ['All', 'Searching.', 'Not looking.'],
+    rivalsFinder: ['All', 'Searching.', 'Not looking.'],
     traitTypes: ['All', 'Equipment', 'Potions', 'Enchantments']
 
   }
@@ -332,10 +332,10 @@ charadex.page.masterlist = {
     toggle: true,
     parameters: {
       'Design Type': charadex.sheet.options.designTypes,
-      'Romance?': charadex.sheet.options.romanceFinder,
-      'Family?': charadex.sheet.options.familyFinder,
-      'Friendship?': charadex.sheet.options.friendFinder,
-      'Rivalries?': charadex.sheet.options.rivalFinder,
+      'Romance Finder': charadex.sheet.options.romanceFinder,
+      'Family Finder': charadex.sheet.options.familyFinder,
+      'Friend Finder': charadex.sheet.options.friendFinder,
+      'Rivals Finder': charadex.sheet.options.rivalsFinder,
     }
   },
 
