@@ -46,8 +46,8 @@ charadex.sheet = {
     statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
     species: ['All', 'Story', 'Collectors', 'NPC'],
-    itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
-    traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
+    itemTypes: ['All', 'Weapon', 'Shield', 'Armour', 'Clothing', 'Consumable', 'Accessory', 'Misc'],
+    traitTypes: ['All', 'Equipment', 'Potions', 'Enchantments']
 
   }
 
@@ -135,7 +135,8 @@ charadex.page.traits = {
     toggle: true,
     parameters: {
       'Type': charadex.sheet.options.traitTypes,
-      'Rarity': charadex.sheet.options.rarity,
+      'User': charadex.sheet.options.user,
+      'Owner': charadex.sheet.options.owner,
     }
   },
 
@@ -148,7 +149,7 @@ charadex.page.traits = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Trait', 'Rarity']
+    parameters: ['All', 'Type', 'User', 'Owner']
   },
 
   prevNext: {
