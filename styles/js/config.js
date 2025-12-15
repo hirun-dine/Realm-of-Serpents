@@ -90,10 +90,6 @@ charadex.page.items = {
     toggle: true,
     parameters: {
       'Type': charadex.sheet.options.itemTypes,
-      'Romance?': charadex.sheet.options.romanceFinder,
-      'Family?': charadex.sheet.options.familyFinder,
-      'Friendship?': charadex.sheet.options.friendFinder,
-      'Rivalries?': charadex.sheet.options.rivalFinder,
     }
   },
 
@@ -336,8 +332,10 @@ charadex.page.masterlist = {
     toggle: true,
     parameters: {
       'Design Type': charadex.sheet.options.designTypes,
-      'Status': charadex.sheet.options.statuses,
-      'Rarity': charadex.sheet.options.rarity,
+      'Romance?': charadex.sheet.options.romanceFinder,
+      'Family?': charadex.sheet.options.familyFinder,
+      'Friendship?': charadex.sheet.options.friendFinder,
+      'Rivalries?': charadex.sheet.options.rivalFinder,
     }
   },
 
