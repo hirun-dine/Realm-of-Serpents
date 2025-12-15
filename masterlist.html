@@ -680,45 +680,71 @@
           <!-- Character Badges
           <!-- ----------------------------------------------------------- -->
           <div class="tab-pane fade" id="logs" role="tabpanel" aria-labelledby="logs-tab" tabindex="0">
-            <h4 class="text-primary">Badges</h4>
-            <div class="card bg-faded p-4" id="log-gallery">
+            
+				<div class="container" style="max-width: 900px;">
+				
+				<div class="card p-0 border-1 rounded-0 bg-transparent" style="border-top: none; border-left: none; border-bottom: none; border-right: 5px solid #5D609C;">
+				<div class="card p-0 mr-2 border-1 rounded-0 bg-transparent" style="border-top: none; border-left: none; border-bottom: none; border-right: 10px solid #5D609C;">
+				<div class="card py-1 px-4 border-0 rounded-0 mr-2 bg-dark text-white" style="font-variant: small-caps; font-size: 25px;">
 
-              <!-- List -->
-              <!-- --------------------------------------------------------------- -->
-              <div class="row no-gutters">
-                <div class="col" style="max-width: 150px;"><b>Badge</b></div>
-                <div class="col" style="max-width: 200px;"><b>Timestamp</b></div>
-                <div class="col"><b>Source</b></div>
-              </div>
-              <hr>
-              <div class="log-list"></div>
+						Character Badges
 
-              <!-- List Item -->
-              <!-- --------------------------------------------------------------- -->
-              <div style="display: none;">
-                <div class="row no-gutters" id="log-gallery-item">
-                  <div class="col" style="max-width: 150px;"><img class="badgeimage img-fluid" src="" style="max-width: 100%;"></div>
-                  <div class="col" style="max-width: 200px;"><span class="timestamp"></span></div>
-                  <div class="col"><span class="reason"></span></div>
+				</div>
+				</div>
+				</div>
+				
+				<div class="card border-1 mt-4 mx-2 rounded-0 bg-transparent" style="border: 1px solid #9CA5BE;">
+				<div class="card border-1 rounded-0 px-4 py-3 bg-transparent mr-2" style="border-top: none; border-left: none; border-bottom: none; border-right: 5px solid #9CA5BE;">
+					
+					<div class="card bg-transparent border-0 rounded-0 p-0" id="log-gallery">
+
+                    <!-- List -->
+                    <!-- --------------------------------------------------------------- -->
+                    <div class="row no-gutters text-center text-primary text-uppercase">
+                      <div class="col" style="max-width: 150px;"><b>Badge</b></div>
+                      <div class="col" style="max-width: 200px;"><b>Timestamp</b></div>
+                      <div class="col"><b>Source</b></div>
+                    </div>
+                    <hr>
+                    <div class="log-list"></div>
+    
+                    <!-- List Item -->
+                    <!-- --------------------------------------------------------------- -->
+                    <div style="display: none;">
+                      <div class="row no-gutters" id="log-gallery-item">
+                        <div class="col" style="max-width: 150px;"><img class="badgeimage img-fluid" src="" style="max-width: 100%;"></div>
+                        <div class="col" style="max-width: 200px;"><span class="timestamp"></span></div>
+                        <div class="col"><span class="reason"></span></div>
+                      </div>
+                    </div>
+    
+                    <!-- Pagination
+                    <!-- --------------------------------------------------------------- -->
+                    <div style="display: none;" class="log-pagination-container">
+                      <hr>
+                      <div class="nav d-flex justify-content-center mb-n4">
+                        <div class="btn-prev page-item"><a class="page-link"><i class="fa fa-chevron-left"></i></a></div>
+                        <ul class="pagination log-pagination log-pagination-top justify-content-center m-0"></ul>
+                        <div class="btn-next page-item"><a class="page-link"><i class="fa fa-chevron-right"></i></a></div>
+                      </div>
+                    </div>
+    
                 </div>
-              </div>
+					
+					
+				</div>
+				
+				</div>
 
-              <!-- Pagination
-              <!-- --------------------------------------------------------------- -->
-              <div style="display: none;" class="log-pagination-container">
-                <hr>
-                <div class="nav d-flex justify-content-center mb-n4">
-                  <div class="btn-prev page-item"><a class="page-link"><i class="fa fa-chevron-left"></i></a></div>
-                  <ul class="pagination log-pagination log-pagination-top justify-content-center m-0"></ul>
-                  <div class="btn-next page-item"><a class="page-link"><i class="fa fa-chevron-right"></i></a></div>
-                </div>
-              </div>
-
-            </div>
+				
+				
+			</div>
+			  
           </div>
+		  <!-- End badges tab -->
 
           <!-- Where to Update -->
-          <div class="card bg-faded py-2 px-3 mt-3 small text-center">
+          <div class="card bg-primary text-white border-0 rounded-0 py-2 px-3 mt-3 small text-center">
             <b>If you need to update this entry, please do so <a href="https://discord.com/channels/575757564617293824/751797614432878662">here</a>.</b>
           </div>
 
