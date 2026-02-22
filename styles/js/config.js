@@ -38,6 +38,7 @@ charadex.sheet = {
     pets:       "pets",
     faq:           "faq",
     staff:         "mods",
+    slots:         "slots",
   },
 
   options: {
@@ -166,6 +167,53 @@ charadex.page.pets = {
 
   sheetPage: charadex.sheet.pages.pets,
   sitePage: 'pets',
+  dexSelector: 'charadex',
+  profileProperty: 'title',
+
+  sort: {
+    toggle: true,
+    key: "enddate",
+    order: "asc",
+    parameters: []
+  },
+
+  pagination: {
+    toggle: true,
+    bottomToggle: true,
+    amount: 12,
+  },
+
+  filters: {
+    toggle: false,
+    parameters: {
+      'TBA': [],
+    }
+  },
+
+  fauxFolder: {
+    toggle: false,
+    folderProperty: '',
+    parameters: [],
+  },
+
+  search: {
+    toggle: true,
+    filterToggle: false,
+    parameters: ['Title']
+  },
+
+  prevNext: {
+    toggle: true,
+  },
+
+};
+
+/* Pets
+/* --------------------------------------------------------------- */
+charadex.page.slots = {
+
+  sheetPage: charadex.sheet.pages.slots,
+  sitePage: 'slots',
   dexSelector: 'charadex',
   profileProperty: 'title',
 
