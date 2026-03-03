@@ -258,7 +258,7 @@ charadex.page.slots = {
 
 
 
-/* Venues Catalogue
+/* Slots
 /* --------------------------------------------------------------- */
 charadex.page.venues = {
 
@@ -269,7 +269,7 @@ charadex.page.venues = {
 
   sort: {
     toggle: true,
-    key: "id",
+    key: "enddate",
     order: "asc",
     parameters: []
   },
@@ -277,26 +277,26 @@ charadex.page.venues = {
   pagination: {
     toggle: true,
     bottomToggle: true,
-    amount: 24,
+    amount: 12,
   },
 
   filters: {
-    toggle: true,
+    toggle: false,
     parameters: {
-      'Type': charadex.sheet.options.venueType,
+      'TBA': [],
     }
   },
 
   fauxFolder: {
-    toggle: true,
-    folderProperty: 'Type',
-    parameters: charadex.sheet.options.venueType,
+    toggle: false,
+    folderProperty: '',
+    parameters: [],
   },
 
   search: {
     toggle: true,
-    filterToggle: true,
-    parameters: ['All', 'Region', 'Rewards Table']
+    filterToggle: false,
+    parameters: ['Title','Region','Rewards Table']
   },
 
   prevNext: {
