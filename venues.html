@@ -12,11 +12,11 @@
   <!-- ----------------------------------------------------------------- -->
   <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
   <title>Activity Venues</title>
-  <meta name="title" content="Activity Venues" />
+  <meta name="title" content="RoS Venues" />
   <meta name="type" content="website" />
   <meta name="url" content="https://www.charadex.com/" />
   <meta name="image" content="assets/meta.png" />
-  <meta name="description" content="A tool for organizing small ARPGs and species.">
+  <meta name="description" content="Location information for Fests and Delves.">
 
   <!-- No AI scraping directives -->
   <meta name="robots" content="noai">
@@ -73,7 +73,7 @@
 
         <!-- Title
         <!-- --------------------------------------------------------------- -->
-        <h3><a href="venues.html">Activity Venues</a></h3>
+        <h3 class="mb-0"><a href="venues.html">Venue Catalogue</a></h3>
 
         <!-- Faux Folders
         <!-- --------------------------------------------------------------- -->
@@ -181,30 +181,31 @@
     <div class="col-md-6 p-2" id="charadex-gallery-item">
       <div class="card h-100">
 
-        
         <!-- Header -->
-        <div class="card-header p-4">
-          <div class="row no-gutters align-items-end m-n1">
-            <div class="col"><h5 class="mb-0 pr-2"><a class="profilelink profileid"></a></h5></div>
-            <div class="col-auto text-right raritybadge"></div>
-          </div>
-        </div>
-        
+        <h5 class="card-header text-center">
+          <a class="profilelink profileid" href=""></a>
+        </h5>
+
+        <!-- Banner -->
+        <div class="cd-prompt-background"></div>
 
         <!-- Body -->
-        <div class="card-body p-md-4 p-3 d-flex flex-fill align-items-center">
-          <div class="row no-gutters m-n2">
-            <div class="col-md-4 p-2"><img class="image img-fluid m-auto" src="" ></div>
-            <div class="col-md-8 p-2">
-              <div class="description"></div>
-            </div>
+        <div class="card-body d-flex flex-column flex-fill">
+          <div class="description mb-auto"></div>
+          <hr class="mx-0">
+          <div class="row no-gutters text-muted m-n1 px-3 small">
+            <div class="col p-1"><b>Start Date:</b> <span class="startdate"></span></div>
+            <div class="col p-1"><b>End Date:</b> <span class="enddate"></span></div>
           </div>
         </div>
-
+        
+        <!-- Footer -->
+        <div class="card-footer text-right">
+          <a class="link" href="">Check It Out <i class="fas fa-circle-chevron-right fa-fw ml-2"></i></a>
+        </div>
 
       </div>
     </div>
-    <!-- End of Gellery Items -->
 
 
     <!-- Gallery Profile
@@ -213,60 +214,30 @@
       <div class="card">
 
         <!-- Header -->
-        <div class="card-header px-md-5 px-4 py-4">
-          <div class="row no-gutters align-items-end m-n1">
-            <div class="col"><h3 class="mb-0 pr-2"><a class="profilelink profileid"></a></h3></div>
-            <div class="col-auto text-right raritybadge"></div>
-          </div>
-          <div class="row no-gutters align-items-end m-n1">
-            <div class="col"><span class="type"></span></div>
-            <div class="col-auto text-right raritybadge"></div>
+        <h3 class="card-header text-center px-md-5 px-4 py-4">
+          <a class="profilelink profileid" href=""></a>
+        </h3>
+
+        <!-- Banner -->
+        <div class="cd-prompt-background"></div>
+
+        <!-- Body -->
+        <div class="card-body p-md-5 p-4 d-flex flex-column flex-fill">
+          <div class="description mb-auto"></div>
+          <hr class="my-4 mx-0">
+          <div class="row no-gutters text-muted m-n1 px-3 small">
+            <div class="col p-1"><b>Start Date:</b> <span class="startdate"></span></div>
+            <div class="col p-1"><b>End Date:</b> <span class="enddate"></span></div>
           </div>
         </div>
-
-
-        <!-- Main Info
-        <!-- ----------------------------------------------------------- -->
-        <div class="p-md-5 p-4">
-          <div class="row no-gutters m-n2">
-
-            <!-- Image -->
-            <div class="col-md-4 d-flex justify-content-center align-items-start text-center p-2">
-              <img class="image img-fluid" src="">
-            </div>
-
-            <div class="col-md-8 p-2">
-              <div class="card bg-faded p-4 h-100">
-
-                <!-- Item -->
-                <div class="d-flex no-gutters mb-2">
-                  <b class="text-muted col-md-5 col-6">Name</b>
-                  <span class="craftable"></span>
-                </div>
-  
-                <!-- Item -->
-                <div>
-                  <div class="cd-text-pre blurb"></div>
-                </div>
-
-                <hr>
-                
-                <!-- Item -->
-                <div>
-                  <div class="cd-text-pre description"></div>
-                </div>
-
-              </div>
-            </div>
-
-          </div>
-
+        
+        <!-- Footer -->
+        <div class="card-footer text-right">
+          <a class="link" href="">Check It Out <i class="fas fa-circle-chevron-right fa-fw ml-2"></i></a>
         </div>
-
 
       </div>
     </div>
-    <!-- End of Gellery Profile -->
 
 
   </div>
