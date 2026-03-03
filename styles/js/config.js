@@ -115,54 +115,6 @@ charadex.page.items = {
 };
 
 
-/* Venues Catalogue
-/* --------------------------------------------------------------- */
-charadex.page.venues = {
-
-  sheetPage: charadex.sheet.pages.venues,
-  sitePage: 'venues',
-  dexSelector: 'charadex',
-  profileProperty: 'venues',
-
-  sort: {
-    toggle: true,
-    key: "id",
-    order: "asc",
-    parameters: []
-  },
-
-  pagination: {
-    toggle: true,
-    bottomToggle: true,
-    amount: 24,
-  },
-
-  filters: {
-    toggle: true,
-    parameters: {
-      'Type': charadex.sheet.options.venueType,
-    }
-  },
-
-  fauxFolder: {
-    toggle: true,
-    folderProperty: 'Type',
-    parameters: charadex.sheet.options.venueType,
-  },
-
-  search: {
-    toggle: true,
-    filterToggle: true,
-    parameters: ['All', 'Region', 'Rewards Table']
-  },
-
-  prevNext: {
-    toggle: true,
-  },
-
-};
-
-
 /* Crafting Codex
 /* --------------------------------------------------------------- */
 charadex.page.craftables = {
@@ -297,6 +249,55 @@ charadex.page.slots = {
     toggle: true,
     filterToggle: false,
     parameters: ['Title']
+  },
+
+  prevNext: {
+    toggle: true,
+  },
+
+};
+
+
+
+/* Venues Catalogue
+/* --------------------------------------------------------------- */
+charadex.page.venues = {
+
+  sheetPage: charadex.sheet.pages.venues,
+  sitePage: 'venues',
+  dexSelector: 'charadex',
+  profileProperty: 'titles',
+
+  sort: {
+    toggle: true,
+    key: "id",
+    order: "asc",
+    parameters: []
+  },
+
+  pagination: {
+    toggle: true,
+    bottomToggle: true,
+    amount: 24,
+  },
+
+  filters: {
+    toggle: true,
+    parameters: {
+      'Type': charadex.sheet.options.venueType,
+    }
+  },
+
+  fauxFolder: {
+    toggle: true,
+    folderProperty: 'Type',
+    parameters: charadex.sheet.options.venueType,
+  },
+
+  search: {
+    toggle: true,
+    filterToggle: true,
+    parameters: ['All', 'Region', 'Rewards Table']
   },
 
   prevNext: {
