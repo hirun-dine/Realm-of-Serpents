@@ -221,15 +221,109 @@
         <!-- Banner -->
         <div class="cd-prompt-background"><img class="image" src="" style="max-width:100%;"></div>
 
-        <!-- Body -->
-        <div class="card-body p-md-5 p-4 d-flex flex-column flex-fill">
-          <div class="description cd-text-pre mb-auto"></div>
-          <hr class="my-4 mx-0">
-          <div class="row no-gutters text-muted m-n1 px-3 small">
-            <div class="col p-1"><b>Start Date:</b> <span class="startdate"></span></div>
-            <div class="col p-1"><b>End Date:</b> <span class="enddate"></span></div>
-          </div>
-        </div>
+<!-- Main Info
+<!-- ----------------------------------------------------------- -->
+<div class="p-md-5 p-4">
+
+<div class="row no-gutters mb-3">
+
+<!-- Sidebar column -->
+<div class="col-sm-3 flex-column mr-sm-3 mr-0 mb-3 mb-sm-0">
+<div class="flex-fill h-100" style="border-left: 10px solid #9CA5BE;">
+<div class="card rounded-0 h-100 ml-3 p-3" style="border: 1px solid #9CA5BE;">
+                        
+<!-- Item -->
+<div class="mb-1">
+  <div class="row no-gutters align-items-center">
+  <div class="col-auto pr-2" style="color:#8490b4;letter-spacing:.5px;font-weight:600; font-size: 13px; text-transform: uppercase;">Type</div>
+  <div class="col align-items-center justify-content-end">
+  <hr class="w-100 m-0" style="position:absolute; border-bottom: 1px solid #9CA5BE; opacity:.3;"></div></div>
+  <p class="mt-0 mb-0">
+  <span class="type"></span>
+  </p>
+</div>
+        				
+<!-- Item -->
+<div class="mb-1">
+  <div class="row no-gutters align-items-center">
+  <div class="col-auto pr-2" style="color:#8490b4;letter-spacing:.5px;font-weight:600; font-size: 13px; text-transform: uppercase;">region</div>
+  <div class="col align-items-center justify-content-end">
+  <hr class="w-100 m-0" style="position:absolute; border-bottom: 1px solid #9CA5BE; opacity:.3;"></div></div>
+  <p class="mt-0 mb-0">
+  <span class="region"></span>
+  </p>
+</div>
+
+<!-- Item -->
+<div class="mb-1">
+  <div class="row no-gutters align-items-center">
+  <div class="col-auto pr-2" style="color:#8490b4;letter-spacing:.5px;font-weight:600; font-size: 13px; text-transform: uppercase;">Duration</div>
+  <div class="col align-items-center justify-content-end">
+  <hr class="w-100 m-0" style="position:absolute; border-bottom: 1px solid #9CA5BE; opacity:.3;"></div></div>
+  <p class="mt-0 mb-0">
+  <span class="startdate"></span> to <span class="enddate"></span>
+  </p>
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- Big column -->
+<div class="col flex-column">
+                    
+<div class="card rounded-0 flex-fill p-3" style="border: 1px solid #9CA5BE;">
+
+<span class="description cd-text-pre"></span>
+                    
+</div>
+
+	
+</div>                
+</div>
+
+	
+<!-- Nav Tabs
+<!-- ----------------------------------------------------------- -->
+<ul class="nav row n-gutters m-n1 pt-2 pb-3" id="slot-tabs" role="tablist">
+  <li class="col p-1 nav-item" role="presentation"><a class="w-100 btn btn-primary active tooltipster" id="design-tab" data-toggle="tab" href="#design" 
+            aria-controls="profile" aria-selected="true" title="Character Requirements">
+  Points of Interest
+  </a></li>
+  <li class="col flex-column p-1 nav-item" role="presentation"><a class="flex-fill -100 btn btn-primary tooltipster" id="backstory-tab" data-toggle="tab" href="#backstory" 
+            aria-controls="backstory" aria-selected="true" title="Backstory Requirements">
+  <span class="tabbname"></span>
+  </a></li>
+</ul>
+
+
+<!-- Main Info
+<!-- ----------------------------------------------------------- -->
+<div class="tab-content">
+
+<!-- Design Reqs
+<!-- ----------------------------------------------------------- -->
+<div class="tab-pane fade active show" id="design" role="tabpanel" aria-labelledby="design-tab" tabindex="0">
+<div class="card rounded-0 p-3" style="border: 1px solid #9CA5BE;">
+  <span class="pointsofinterest cd-text-pre"></span>
+</div>
+</div>
+
+<!-- Backstory Reqs
+<!-- ----------------------------------------------------------- -->
+<div class="tab-pane fade" id="backstory" role="tabpanel" aria-labelledby="backstory-tab" tabindex="0">
+<div class="card rounded-0 p-3" style="border: 1px solid #9CA5BE;">
+  <span class="secondaryinfo cd-text-pre"></span>
+</div>
+</div>
+
+</div>
+	
+
+	
+</div>
+</div>
+
 
       </div>
     </div>
