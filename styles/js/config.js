@@ -53,8 +53,7 @@ charadex.sheet = {
     romanceFinder: ['All', 'Searching.', 'Not looking.', 'Taken.'],
     friendFinder: ['All', 'Searching.', 'Not looking.'],
     rivalsFinder: ['All', 'Searching.', 'Not looking.'],
-    traitTypes: ['All', 'Equipment', 'Potions', 'Enchantments'],
-    venueTypes: ['All', 'Fest', 'Delve']
+    traitTypes: ['All', 'Equipment', 'Potions', 'Enchantments']
 
   }
 
@@ -266,7 +265,7 @@ charadex.page.venues = {
   sheetPage: charadex.sheet.pages.venues,
   sitePage: 'venues',
   dexSelector: 'charadex',
-  profileProperty: 'titles',
+  profileProperty: 'title',
 
   sort: {
     toggle: true,
