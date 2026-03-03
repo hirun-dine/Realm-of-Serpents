@@ -39,7 +39,7 @@ charadex.sheet = {
     faq:           "faq",
     staff:         "mods",
     slots:         "slots",
-    venues:         "slots",
+    venues:         "venues",
   },
 
   options: {
@@ -53,7 +53,8 @@ charadex.sheet = {
     romanceFinder: ['All', 'Searching.', 'Not looking.', 'Taken.'],
     friendFinder: ['All', 'Searching.', 'Not looking.'],
     rivalsFinder: ['All', 'Searching.', 'Not looking.'],
-    traitTypes: ['All', 'Equipment', 'Potions', 'Enchantments']
+    traitTypes: ['All', 'Equipment', 'Potions', 'Enchantments'],
+    venueTypes: ['All', 'Fest', 'Delve']
 
   }
 
