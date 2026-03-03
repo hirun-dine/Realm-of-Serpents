@@ -36,7 +36,7 @@ charadex.sheet = {
     items:         "items",
     craftables:        "craftables",
     pets:       "pets",
-    faq:           "faq",
+    abilities:           "abilities",
     staff:         "mods",
     slots:         "slots",
     venues:         "venues",
@@ -355,12 +355,12 @@ charadex.page.staff = {
 };
 
 
-/* FAQ
+/* abilities
 /* --------------------------------------------------------------- */
-charadex.page.faq = {
+charadex.page.abilities = {
 
-  sheetPage: charadex.sheet.pages.faq,
-  sitePage: 'faq',
+  sheetPage: charadex.sheet.pages.abilities,
+  sitePage: 'abilities',
   dexSelector: 'charadex',
   profileProperty: 'id',
 
@@ -393,7 +393,7 @@ charadex.page.faq = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'Question', 'Answer', 'Tags']
+    parameters: ['All', 'Ability', 'Description', 'Tags']
   },
 
   prevNext: {
