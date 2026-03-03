@@ -26,6 +26,7 @@ Setup for custom fonts imported for the site.
   margin-right: 6px;
   color: #5D609C;
   font-weight: 500;
+  font-family: 'Manufacturing Consent', serif;
 }
 
 .fancyfirstline::first-line {
