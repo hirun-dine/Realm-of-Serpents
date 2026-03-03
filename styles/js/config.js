@@ -258,7 +258,7 @@ charadex.page.slots = {
 
 
 
-/* Slots
+/* Activity venues
 /* --------------------------------------------------------------- */
 charadex.page.venues = {
 
@@ -288,14 +288,14 @@ charadex.page.venues = {
   },
 
   fauxFolder: {
-    toggle: false,
-    folderProperty: '',
-    parameters: [],
+    toggle: true,
+    folderProperty: 'Type',
+    parameters: charadex.sheet.options.venueType,
   },
 
   search: {
     toggle: true,
-    filterToggle: false,
+    filterToggle: true,
     parameters: ['Title','Region','Rewards Table']
   },
 
