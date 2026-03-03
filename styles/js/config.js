@@ -270,7 +270,7 @@ charadex.page.venues = {
   sort: {
     toggle: true,
     key: "enddate",
-    order: "asc",
+    order: "desc",
     parameters: []
   },
 
@@ -280,10 +280,11 @@ charadex.page.venues = {
     amount: 12,
   },
 
+
   filters: {
-    toggle: false,
+    toggle: true,
     parameters: {
-      'TBA': [],
+      'Activity': charadex.sheet.options.venueType,
     }
   },
 
