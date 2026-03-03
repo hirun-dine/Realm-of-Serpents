@@ -3,6 +3,8 @@ CUSTOM FONTS
 Setup for custom fonts imported for the site.
 ========================= */
 
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+
 @font-face {
     font-family: 'Medieval_Dingbats';
     src: url('styles/css/fonts/medievaldingbats-webfont.woff2') format('woff2'),
