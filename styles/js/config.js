@@ -282,7 +282,7 @@ charadex.page.venues = {
 
 
   filters: {
-    toggle: true,
+    toggle: false,
     parameters: {
       'Activity': charadex.sheet.options.venueType,
     }
