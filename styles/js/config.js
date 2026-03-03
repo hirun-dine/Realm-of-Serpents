@@ -53,8 +53,8 @@ charadex.sheet = {
     romanceFinder: ['All', 'Searching.', 'Not looking.', 'Taken.'],
     friendFinder: ['All', 'Searching.', 'Not looking.'],
     rivalsFinder: ['All', 'Searching.', 'Not looking.'],
-    traitTypes: ['All', 'Equipment', 'Potions', 'Enchantments']
-
+    traitTypes: ['All', 'Equipment', 'Potions', 'Enchantments'],
+    venueType: ['All', 'Delve', 'Fest']
   }
 
 }
