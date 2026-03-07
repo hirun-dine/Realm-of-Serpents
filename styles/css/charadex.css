@@ -36,6 +36,11 @@ Setup for custom fonts imported for the site.
   color: #5d609c;
 }
 
+.bg-dark a[href] {
+  color: #DFD2BB;
+  font-weight: 500;
+}
+
 body {
 
   /* ============================================================= */
