@@ -362,7 +362,7 @@ charadex.page.abilities = {
   sheetPage: charadex.sheet.pages.abilities,
   sitePage: 'abilities',
   dexSelector: 'charadex',
-  profileProperty: 'title',
+  profileProperty: 'ability',
 
   sort: {
     toggle: false,
@@ -397,7 +397,7 @@ charadex.page.abilities = {
   },
 
   prevNext: {
-    toggle: false,
+    toggle: true,
   },
 
 }
