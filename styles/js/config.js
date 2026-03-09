@@ -481,7 +481,7 @@ charadex.page.masterlist = {
       sheetPage: charadex.sheet.pages.stats,
       primaryProperty: 'id',
       relatedProperty: 'id',
-      dexSelector: 'log',
+      dexSelector: 'charadex',
       profileProperty: 'design',
       profileToggle: false,
 
