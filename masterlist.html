@@ -624,46 +624,183 @@
           
           <!-- Stats Info
           <!-- ----------------------------------------------------------- -->
-          <div class="tab-pane fade" id="stats" role="tabpanel" aria-labelledby="stats-tab" tabindex="0">
+<div class="tab-pane fade" id="stats" role="tabpanel" aria-labelledby="stats-tab" tabindex="0">
+<div class="container" style="max-width: 900px;">
 
-			<div class="container" style="max-width: 900px;">
-				
-				<div class="card p-0 border-1 rounded-0 bg-transparent" style="border-top: none; border-left: none; border-bottom: none; border-right: 5px solid #5D609C;">
-				<div class="card p-0 mr-2 border-1 rounded-0 bg-transparent" style="border-top: none; border-left: none; border-bottom: none; border-right: 10px solid #5D609C;">
-				<div class="card py-1 px-4 border-0 rounded-0 mr-2 bg-dark text-white" style="font-variant: small-caps; font-size: 25px;">
+<!--
+========================================
+========================================
 
-						Story Mode Stats
+START STORY MODE TAB
 
-				</div>
-				</div>
-				</div>
-				
-				<div class="card border-1 mt-4 mx-2 rounded-0 bg-transparent" style="border: 1px solid #9CA5BE;">
-				<div class="card border-1 rounded-0 px-4 py-3 bg-transparent mr-2" style="border-top: none; border-left: none; border-bottom: none; border-right: 5px solid #9CA5BE;">
-					
-					<img src="assets/story-mode-locked.png" class="mx-auto mb-2 d-block" style="max-width: 120px;">
-					
-					<h4 class="text-center mb-0">Story Mode is currently <b>unavailable</b>.</h4>
-					
-					<!-- pretty divider start -->
-				
-					<div class="row no-gutters m-3 align-items-center">
-						<div class="col"><hr class="w-100" style="border-bottom: 1px solid #9CA5BE;"></div>
-						<div class="col" style="max-width: 50px; text-align: center; font-size: 40px; color: #9CA5BE; font-family: 'Medieval_Dingbats';"><img src="assets/bird-divider.png" style="max-width: 40px;"></div>
-						<div class="col"><hr class="w-100" style="border-bottom: 1px solid #9CA5BE;"></div>
-					</div>
-				
-					<!-- pretty divider end -->
-						
-						<p class="text-center mb-3">Eventual content in this section will only be applicable to Story Mode characters.</p>
-						
-						</div>
-					</div>
+========================================
+========================================
+-->
+
+
+<div class="card p-0 border-1 rounded-0 bg-transparent" style="border-top: none; border-left: none; border-bottom: none; border-right: 5px solid #5D609C;"><div class="card p-0 mr-2 border-1 rounded-0 bg-transparent" style="border-top: none; border-left: none; border-bottom: none; border-right: 10px solid #5D609C;"><div class="card py-1 px-4 border-0 rounded-0 mr-2 bg-dark text-white" style="font-variant: small-caps; font-size: 25px;">
+    Story Mode Stats
+</div></div></div>
+
+
+<!--
+========================================
+
+START HEADER SECTION
+
+========================================
+-->
+
+<div class="row no-gutters mt-4 mx-sm-2">
+
+<div class="col-sm-2 col-4 mr-3">
+    <div class="card p-1 border-1 rounded-0 bg-transparent h-100" style="border: 1px solid #9CA5BE;"><img class="coolicon" src="" style="background: #DCD5C7;"></div>
+</div>
+<div class="col flex-column">
+    <div class="card text-uppercase rounded-0 border-0 p-2 mb-3 text-right" style="font-size: 12pt;color:#5D609C;background:linear-gradient(90deg,#E3DCCF 35%,#EEEAE2 85%);"><span>Lvl. <span class="level"></span> | <b class="Class"></b></span></div>
+    <div class="text-right mb-2"><span class="py-1 px-2" style="font-weight:bold; background:#DCD5C7; color: #5D609C;">+<span class="profbonus"></span></span> <span style="font-weight:500;">Proficiency Bonus</span></div>
+    <div class="text-right mt-1"><span class="py-1 px-2 injurytier" style="font-weight:bold; background:#DCD5C7; color: #5D609C;"></span> <span style="font-weight:500;">Status</span></div>
+</div>
+</div>
+
+
+<div class="card border-1 mt-3 mx-sm-2 mx-0 rounded-0 bg-transparent" style="border: 1px solid #9CA5BE;"><div class="card border-1 rounded-0 px-4 py-3 bg-transparent mr-2" style="border-top: none; border-left: none; border-bottom: none; border-right: 5px solid #9CA5BE;">
+<div class="row">
+
+<!--
+========================================
+
+START CHARACTER STATS SECTION
+
+========================================
+-->
+
+<div class="col-sm"><p class="text-center mb-2 font-weight-bold text-capitalize small-caps" style="font-weight: bold; color: #736859;font-variant:small-caps;font-size:13pt;"><i class="fa-solid fa-dice-d20" style="color:#BEB3A0;"></i> character stats</p>
+<div class="row no-gutters mb-2">
+  <!-- strength stat -->
+  <div class="col">
+    <div class="card border-0 rounded-0 p-2 text-center" style="background:#DCD5C7;">
+        <b class="str" style="font-size: 15pt; color:#5D609C;"></b><span class="text-uppercase" style="font-size:11pt;font-weight:500">STR (+<span class="strmod"></span>)</span>
+    </div>
+  </div>
+  <!-- agility stat -->
+  <div class="col mx-2">
+    <div class="card border-0 rounded-0 p-2 text-center" style="background:#DCD5C7;">
+        <b class="agl" style="font-size: 15pt; color:#5D609C;"></b><span class="text-uppercase" style="font-size:11pt;font-weight:500">agl (+<span class="aglmod"></span>)</span>
+    </div>
+  </div>
+  <!-- vitality stat -->
+  <div class="col">
+    <div class="card border-0 rounded-0 p-2 text-center" style="background:#DCD5C7;">
+        <b class="vit" style="font-size: 15pt; color:#5D609C;"></b><span class="text-uppercase" style="font-size:11pt;font-weight:500">vit (+<span class="vitmod"></span>)</span>
+    </div>
+  </div>
+</div>
+<div class="row no-gutters mb-2">
+  <!-- brilliance stat -->
+  <div class="col">
+    <div class="card border-0 rounded-0 p-2 text-center" style="background:#DCD5C7;">
+        <b class="bri" style="font-size: 15pt; color:#5D609C;"></b><span class="text-uppercase" style="font-size:11pt;font-weight:500">bri (+<span class="brimod"></span>)</span>
+    </div>
+  </div>
+  <!-- instinct stat -->
+  <div class="col mx-2">
+    <div class="card border-0 rounded-0 p-2 text-center" style="background:#DCD5C7;">
+        <b class="ins" style="font-size: 15pt; color:#5D609C;"></b><span class="text-uppercase" style="font-size:11pt;font-weight:500">ins (+<span class="insmod"></span>)</span>
+    </div>
+  </div>
+  <!-- charm stat -->
+  <div class="col">
+    <div class="card border-0 rounded-0 p-2 text-center" style="background:#DCD5C7;">
+        <b class="cha" style="font-size: 15pt; color:#5D609C;"></b><span class="text-uppercase" style="font-size:11pt;font-weight:500">cha (+<span class="chamod"></span>)</span>
+    </div>
+  </div>
+</div>
+
+<div class="row no-gutters align-items-center mt-3"><div class="col-auto pr-2 small" style="color:#7683a9;letter-spacing:.5px;font-weight:600; text-transform: uppercase;">skill proficiencies</div><div class="col align-items-center justify-content-end"><hr class="w-100 m-0" style="position:absolute; border-bottom: 1px solid #9CA5BE; opacity:1;"></div></div>
+    <p class="ml-2 mt-1 skilllist"></p>
+</div>
+
+
+
+<!--
+========================================
+
+START INVENTORY SECTION
+
+========================================
+-->
+
+<div class="col-sm"><p class="text-center mb-2 font-weight-bold mt-sm-0 mt-3 text-capitalize small-caps" style="font-weight: bold; color: #736859;font-variant:small-caps;font-size:13pt;"><i class="fa-solid fa-briefcase" style="color:#BEB3A0;"></i> inventory</p>
+
+	<!-- weapons/tools -->
+    <div class="card border-0 mb-2 rounded-0 py-1 px-2" style="background:linear-gradient(90deg,#E3DCCF 35%,#DCD5C7 85%);"><p class="mb-0 weaponstools"></p>
+    <p class="font-weight-bold small text-uppercase mt-2" style="color:#7683a9;border-top:1px solid #9CA5BE;"><i class="fa-solid fa-hand"></i> weaponry &amp; tools</p></div>
+
+	<!-- armour/clothing -->
+    <div class="card border-0 mb-2 rounded-0 py-1 px-2" style="background:linear-gradient(90deg,#E3DCCF 35%,#DCD5C7 85%);"><p class="mb-0 armourclothes"></p>
+    <p class="font-weight-bold small text-uppercase mt-2" style="color:#7683a9;border-top:1px solid #9CA5BE;"><i class="fa-solid fa-helmet-safety"></i> armour &amp; clothes</p></div>
+
+	<!-- accessories -->
+    <div class="card border-0 mb-2 rounded-0 py-1 px-2" style="background:linear-gradient(90deg,#E3DCCF 35%,#DCD5C7 85%);"><p class="mb-0 accessories"></p>
+    <p class="font-weight-bold small text-uppercase mt-2" style="color:#7683a9;border-top:1px solid #9CA5BE;"><i class="fa-solid fa-gem"></i> accessories</p></div>
+	
+    <!-- consumables -->
+    <div class="card border-0 rounded-0 py-1 px-2" style="background:linear-gradient(90deg,#E3DCCF 35%,#DCD5C7 85%);"><p class="mb-0 consumables"></p>
+    <p class="font-weight-bold small text-uppercase mt-2" style="color:#7683a9;border-top:1px solid #9CA5BE;"><i class="fa-solid fa-flask-vial"></i> consumables</p></div>
+
+</div>
+</div>
+</div></div>
+
+
+<div class="card border-1 mt-3 mx-sm-2 mx-0 rounded-0 bg-transparent" style="border: 1px solid #9CA5BE;"><div class="card border-1 rounded-0 px-4 py-3 bg-transparent mr-2" style="border-top: none; border-left: none; border-bottom: none; border-right: 5px solid #9CA5BE;">
+<div class="row">
+
+<!--
+========================================
+
+START ABILITIES SECTION
+
+========================================
+-->
+
+<div class="col-sm">
+    <p class="text-center mb-2 font-weight-bold text-capitalize small-caps" style="font-weight: bold; color: #736859;font-variant:small-caps;font-size:13pt;"><i class="fa-solid fa-hand-sparkles" style="color:#BEB3A0;"></i> abilities</p>
+    <div class="abilities"></div>
+</div>
+
+<!--
+========================================
+
+START REPUTATION SECTION
+
+========================================
+-->
+
+<div class="col-sm">
+    <p class="text-center mb-2 font-weight-bold mt-sm-0 mt-3 text-capitalize small-caps" style="font-weight: bold; color: #736859;font-variant:small-caps;font-size:13pt;">Reputation</p>
+    <p class="text-center">Expand the dropdown below to see this character&rsquo;s reputation scores!</p>
+</div>
+
+</div>
+
+</div></div>
+
+
+
+<!--
+========================================
+========================================
+
+END STORY MODE TAB
+
+========================================
+========================================
+-->
 					 
-				</div>
-            
-            
-          </div>
+</div>
+</div>
 
 
           
