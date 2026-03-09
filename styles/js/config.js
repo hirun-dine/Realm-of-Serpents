@@ -31,7 +31,6 @@ charadex.sheet = {
   pages: {
     masterlist:    "masterlist",
     badges: "badges",
-    stats: "stats",
     inventory:     "inventory",
     inventoryLog:  "inventory log",
     items:         "items",
@@ -470,30 +469,6 @@ charadex.page.masterlist = {
 
       pagination: {
         toggle: true,
-        bottomToggle: false,
-        amount: 12,
-      },
-
-    }
-
-    [charadex.sheet.pages.stats]: {
-
-      sheetPage: charadex.sheet.pages.stats,
-      primaryProperty: 'id',
-      relatedProperty: 'id',
-      dexSelector: 'charadex',
-      profileProperty: 'design',
-      profileToggle: false,
-
-      sort: {
-        toggle: false,
-        key: "timestamp",
-        order: "desc",
-        parameters: []
-      },
-
-      pagination: {
-        toggle: false,
         bottomToggle: false,
         amount: 12,
       },
