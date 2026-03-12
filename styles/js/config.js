@@ -411,7 +411,7 @@ charadex.page.masterlist = {
   sheetPage: charadex.sheet.pages.masterlist,
   sitePage: 'masterlist',
   dexSelector: 'charadex',
-  profileProperty: 'character name',
+  profileProperty: 'charactername',
 
   sort: {
     toggle: true,
