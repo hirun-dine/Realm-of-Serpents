@@ -24,14 +24,6 @@ document.addEventListener("DOMContentLoaded", async () => {
             charadex.page.masterlist.relatedData['badges']
           );
         }
-		
-		// Import story mode data
-        if (charadex.tools.checkArray(listData.profileArray[0].stats)) {
-          let logs = await charadex.initialize.page(
-            listData.profileArray[0].stats,
-            charadex.page.masterlist.relatedData['stats']
-          );
-        }
 
       }
 
