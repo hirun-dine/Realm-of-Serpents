@@ -556,7 +556,7 @@ charadex.page.inventory = {
       primaryProperty: 'username',
       relatedProperty: 'owner',
       dexSelector: 'designs',
-      profileProperty: 'design',
+      profileProperty: 'charactername',
       profileToggle: false,
 
     }
