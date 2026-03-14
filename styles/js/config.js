@@ -50,7 +50,7 @@ charadex.sheet = {
     species: ['All', 'Story', 'Collectors', 'NPC'],
     itemTypes: ['All', 'Weapon', 'Shield', 'Armour', 'Clothing', 'Consumable', 'Accessory', 'Misc'],
     traitTypes: ['All', 'Equipment', 'Potions', 'Enchantments'],
-    effectType: ['All', 'Restorative', 'Boon', 'Debuff', 'Defensive', 'Offensive', 'Subterfuge', 'Utility', 'Cosmetic', 'Misc'],
+    effect: ['All', 'Restorative', 'Boon', 'Debuff', 'Defensive', 'Offensive', 'Subterfuge', 'Utility', 'Cosmetic', 'Misc'],
     venueType: ['All', 'Delve', 'Fest']
   }
 
@@ -137,7 +137,7 @@ charadex.page.craftables = {
     toggle: true,
     parameters: {
       'Type': charadex.sheet.options.traitTypes,
-      'Function': charadex.sheet.options.effectType,
+      'Function': charadex.sheet.options.effect,
     }
   },
 
