@@ -43,7 +43,6 @@ charadex.sheet = {
   },
 
   options: {
-
     designTypes: ['All', 'Dragon', 'Familiar', 'Human', 'Other'],
     statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
