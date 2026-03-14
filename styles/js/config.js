@@ -45,11 +45,10 @@ charadex.sheet = {
   options: {
     designTypes: ['All', 'Dragon', 'Familiar', 'Human', 'Other'],
     statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
-    rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
+    rarity: ['All', 'Restorative', 'Boon', 'Debuff', 'Defensive', 'Offensive', 'Subterfuge', 'Utility', 'Cosmetic', 'Misc'],
     species: ['All', 'Story', 'Collectors', 'NPC'],
     itemTypes: ['All', 'Weapon', 'Shield', 'Armour', 'Clothing', 'Consumable', 'Accessory', 'Misc'],
     traitTypes: ['All', 'Equipment', 'Potions', 'Enchantments'],
-    effect: ['All', 'Restorative', 'Boon', 'Debuff', 'Defensive', 'Offensive', 'Subterfuge', 'Utility', 'Cosmetic', 'Misc'],
     venueType: ['All', 'Delve', 'Fest']
   }
 
@@ -136,7 +135,7 @@ charadex.page.craftables = {
     toggle: true,
     parameters: {
       'Type': charadex.sheet.options.traitTypes,
-      'Function': charadex.sheet.options.effect,
+      'Function': charadex.sheet.options.rarity,
     }
   },
 
