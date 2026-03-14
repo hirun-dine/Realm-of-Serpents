@@ -49,11 +49,8 @@ charadex.sheet = {
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
     species: ['All', 'Story', 'Collectors', 'NPC'],
     itemTypes: ['All', 'Weapon', 'Shield', 'Armour', 'Clothing', 'Consumable', 'Accessory', 'Misc'],
-    familyFinder: ['All', 'Searching.', 'Not looking.', 'Not applicable.'],
-    romanceFinder: ['All', 'Searching.', 'Not looking.', 'Taken.'],
-    friendFinder: ['All', 'Searching.', 'Not looking.'],
-    rivalsFinder: ['All', 'Searching.', 'Not looking.'],
     traitTypes: ['All', 'Equipment', 'Potions', 'Enchantments'],
+    effectType: ['All', 'Restorative', 'Boon', 'Debuff', 'Defensive', 'Offensive', 'Subterfuge', 'Utility', 'Cosmetic', 'Misc'],
     venueType: ['All', 'Delve', 'Fest']
   }
 
@@ -140,6 +137,7 @@ charadex.page.craftables = {
     toggle: true,
     parameters: {
       'Type': charadex.sheet.options.traitTypes,
+      'Function': charadex.sheet.options.effectType,
     }
   },
 
