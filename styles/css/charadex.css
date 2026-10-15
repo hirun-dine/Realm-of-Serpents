@@ -41,7 +41,7 @@ Setup for custom fonts imported for the site.
   border-image-width: 13px 13px 13px 13px;
   border-image-outset: 13px 13px 13px 13px;
   border-image-repeat: repeat repeat;
-  border-image-source: url("/main/assets/border-image-4.png";
+  border-image-source: url('https://github.com/hirun-dine/Realm-of-Serpents/blob/main/assets/border-image-4.png?raw=true');
   border-style: solid;
   border-width:0px;
 }
