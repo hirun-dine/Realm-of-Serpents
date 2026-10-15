@@ -36,6 +36,16 @@ Setup for custom fonts imported for the site.
   color: #5d609c;
 }
 
+.dex-icon {
+  border-image-slice: 13 13 13 13;
+  border-image-width: 13px 13px 13px 13px;
+  border-image-outset: 13px 13px 13px 13px;
+  border-image-repeat: repeat repeat;
+  border-image-source: url("/main/assets/border-image-4.png";
+  border-style: solid;
+  border-width:0px;
+}
+
 .bg-dark a[href] {
   color: #DFD2BB;
   font-weight: 500;
