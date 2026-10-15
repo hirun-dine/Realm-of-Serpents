@@ -546,6 +546,22 @@ a:active {
   box-shadow: none !important;
 }
 
+.btn.btn-dark {
+  border:0px !important;
+}
+
+.btn.btn-dark:hover,
+.btn.btn-dark:focus,
+.btn.btn-dark:active,
+a.badge.badge-dark:hover,
+a.badge.badge-dark:focus,
+a.badge.badge-dark:active {
+  color: var(--cd-button-text-color-hover) !important;
+  border-color: var(--cd-button-border-color) !important;
+  background-color: #474982 !important;
+  box-shadow: none !important;
+}
+
 .btn.btn-primary:hover,
 .btn.btn-primary:focus,
 .btn.btn-primary:active,
