@@ -805,6 +805,10 @@ p:last-child {
 
 .cd-gallery-card > img {
   max-height: 100% !important;
+  min-height:200px;
+  min-width:200px;
+  max-height: 200px;
+  border-radius:20px 2px;
 }
 
 .cd-profile-image-container > img {
